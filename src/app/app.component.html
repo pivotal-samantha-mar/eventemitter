@@ -1,0 +1,13 @@
+<div class="container">
+
+  <h1>This is the app component</h1>
+
+  <p>
+    {{ emittedMessage }}
+  </p>
+
+  <hr>
+
+  <app-child (notify) = "onNotifyClicked($event)"></app-child>
+
+</div>
